@@ -16,9 +16,9 @@ input:focus {
   outline: none;
 }
 
-/* .js-focus-visible .focus-visible {
-
-} */
+.js-focus-visible .focus-visible {
+  outline: 5px solid $brand-color-primary;
+}
 
 // =================
 // EXCEPTIONS
