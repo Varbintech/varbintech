@@ -2,9 +2,6 @@
   "name": "varbintech",
   "version": "1.0.0",
   "description": "A homepage for Varbintech.com",
-  "browserslist": [
-    "defaults"
-  ],
   "scripts": {
     "dev": "run-s clean eleventy:dev --print-label",
     "build": "run-s clean eleventy:prod --print-label",
@@ -13,6 +10,7 @@
     "clean": "del-cli dist",
     "lint": "eslint src/**/*.js src/assets/**/*.js utils/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js src/assets/**/*.js utils/**/*.js",
+    "add-domain": "echo \"varbintech.com\" > _site/CNAME",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
