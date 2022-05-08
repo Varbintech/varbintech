@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           yarn
+          yarn clean
           yarn eleventy:prod
           yarn add-domain
       - name: Deploy
