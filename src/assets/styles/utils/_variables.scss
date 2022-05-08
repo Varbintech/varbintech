@@ -8,9 +8,11 @@
 // adapting to different screen sizes, for use in media queries.
 
 $breakpoints: (
-  md: 670px,
-  lg: 940px,
-  xl: 1260px
+  sm: 48em, // 768px
+  md: 64em, // 1024px
+  lg: 85.375em, // 1366px
+  xl: 120em, // 1920px
+  xxl: 160em, // 2560px
 );
 
 $container-max-width: 1200px;
