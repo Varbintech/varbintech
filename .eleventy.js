@@ -62,7 +62,7 @@ module.exports = function (config) {
   return {
     dir: {
       input: 'src',
-      output: 'dist',
+      output: '_site',
       includes: 'includes',
       layouts: 'layouts',
       data: 'data',
