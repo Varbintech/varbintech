@@ -10,7 +10,7 @@
     "clean": "del-cli dist",
     "lint": "eslint src/**/*.js src/assets/**/*.js utils/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js src/assets/**/*.js utils/**/*.js",
-    "add-domain": "echo \"varbintech.com\" > _site/CNAME",
+    "add-domain": "echo \"varbintech.com\" > dist/CNAME",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
