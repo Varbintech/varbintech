@@ -7,10 +7,10 @@
     "build": "run-s clean eleventy:prod --print-label",
     "eleventy:dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy",
-    "clean": "del-cli dist",
+    "clean": "del-cli _site",
     "lint": "eslint src/**/*.js src/assets/**/*.js utils/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js src/assets/**/*.js utils/**/*.js",
-    "add-domain": "echo \"varbintech.com\" > dist/CNAME",
+    "add-domain": "echo \"varbintech.com\" > _site/CNAME",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
