@@ -1,8 +1,13 @@
 {
-    "title": "Varbintech - Development Company",
+    "title": "Varbintech | Development Company | Get started",
     "description": "We help startups and companies of all shapes and sizes to build high-quality Front-End solutions.",
     "url": "https://varbintech.com",
     "lang": "en",
     "locale": "en_us",
-    "image": "/assets/images/og-image-min.jpeg"
+    "image": "/assets/images/og-image-min.jpeg",
+    "keywords": "Startup, Front-end Development, Software Development, JavaScript, TypeScript, React, Angular",
+    "imageWidth": 1200,
+    "imageHeight": 630,
+    "imageAlt": "Varbintech | Development Company | Get started",
+    "imageType": "image/jpeg"
 }
