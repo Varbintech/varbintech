@@ -1,41 +1,21 @@
-{# General #}
-<meta name="keywords" content="{{ meta.keywords }}" />
-<meta name="description" content="{{ description or meta.description }}">
-{%- if meta.image -%}
-  <meta name="image" content="{{ meta.image | url | absoluteUrl(meta.url) }}" />
-{%- endif -%}
+<!-- HTML Meta Tags -->
+<title>Varbintech | Development Company | Get started</title>
+<meta name="description" content="We help startups and companies of all shapes and sizes to build high-quality Front-End solutions.">
 
-{# Open Graph #}
-<meta property="og:site_name" content="{{ meta.title }}">
-<meta property="og:title" content="{{ meta.title }}">
-<meta property="og:description" content="{{ meta.description }}">
-<meta property="og:url" content="{{ meta.url | url }}">
-<meta property="og:locale" content="{{ meta.locale }}">
-{%- if meta.image -%}
-  <meta property="og:image" content="{{ meta.image | url | absoluteUrl(meta.url) }}">
-  <meta property="og:image:type" content="{{ meta.imageType }}" />
-  <meta property="og:image:width" content="{{ meta.imageWidth }}" />
-  <meta property="og:image:height" content="{{ meta.imageHeight }}" />
-  <meta property="og:image:alt" content="{{ meta.imageAlt }}" />
-{%- endif -%}
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Varbintech | Development Company | Get started">
+<meta itemprop="description" content="We help startups and companies of all shapes and sizes to build high-quality Front-End solutions.">
+<meta itemprop="image" content="http://varbintech.com/assets/images/og-image-min.jpeg">
 
-{# Twitter #}
-<meta name="twitter:title" content="{{ meta.title }}" />
-<meta name="twitter:description" content="{{ meta.description }}" />
-{%- if meta.image -%}
-  <meta name="twitter:image" content="{{ meta.image | url | absoluteUrl(meta.url) }}" />
-{%- endif -%}
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://varbintech.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Varbintech | Development Company | Get started">
+<meta property="og:description" content="We help startups and companies of all shapes and sizes to build high-quality Front-End solutions.">
+<meta property="og:image" content="http://varbintech.com/assets/images/og-image-min.jpeg">
 
-<link rel="canonical" href="{{ meta.url | url }}">
-
-{# Favicon #}
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
-<link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}" sizes="16x16">
-<link rel="shortcut icon" href="{{ '/assets/images/favicon/favicon.ico' | url }}">
-<link rel="manifest" href="{{ '/site.webmanifest' | url }}">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-
-{# RSS Feed #}
-{# <link type="application/atom+xml" rel="alternate" href="{{ meta.url }}/feed.xml" title="{{ meta.title }}"> #}
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Varbintech | Development Company | Get started">
+<meta name="twitter:description" content="We help startups and companies of all shapes and sizes to build high-quality Front-End solutions.">
+<meta name="twitter:image" content="http://varbintech.com/assets/images/og-image-min.jpeg">
