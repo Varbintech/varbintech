@@ -21,7 +21,7 @@ module.exports = class {
     const rules = [
       {
         test: /\.m?js$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',
           options: {
@@ -91,7 +91,6 @@ module.exports = class {
   async render({ webpackConfig }) {
     try {
       const result = await this.compile(webpackConfig);
-
 
       return result;
     } catch (err) {
